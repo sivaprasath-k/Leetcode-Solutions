@@ -8,7 +8,7 @@ class Solution {
                 n++;
             }
         }
-        if(k>=n-1){
+        if(k>=n){
             return nums.length;
         }
         int h=0,res=0;
@@ -20,7 +20,8 @@ class Solution {
             f++;
             if(k+f==n){
                 start=a[h]+1;
-                end=a[k+f-1];
+                // end=a[k+f-1];
+                end=nums.length-1;
                 res=Math.max(res,end-start+1);
                 break;
             }
