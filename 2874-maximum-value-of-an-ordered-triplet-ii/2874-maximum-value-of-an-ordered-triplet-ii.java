@@ -13,7 +13,7 @@ class Solution {
         }
         long res=0;
         for(int i=1;i<len-1;i++){
-            res=Math.max(res,(lg[i]-nums[i])*rg[i]);
+            res=Math.max(res,(long)(lg[i]-nums[i])*rg[i]);
         }
         return res;
     }
