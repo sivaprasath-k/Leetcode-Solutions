@@ -1,16 +1,23 @@
 class Solution {
-    public List<List<Integer>> subsets(int[] nums) {
-        int len=nums.length;
-        List<List<Integer>> res=new ArrayList<>();
-        for(int i=0;i<(1<<len);i++){
-            ArrayList<Integer> number=new ArrayList<>();
-            for(int j=0;j<nums.length;j++){
-                if(((1<<j)&i) !=0){
-                    number.add(nums[j]);
-                }
-            }
-            res.add(number);
+    void func(int index, int[] arr, List<Integer> current, List<List<Integer>> res) {
+        if (index == arr.length) {
+            res.add(current);  // Must add a copy
+            return;
         }
+
+        // Include the current element
+        List<Integer> include = new ArrayList<>(current);
+        include.add(arr[index]);
+        func(index + 1, arr, include, res);
+
+        // Exclude the current element
+        //List<Integer> exclude = new ArrayList<>(current);
+        func(index + 1, arr, current, res); // No need to clone again
+    }
+
+    public List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        func(0, nums, new ArrayList<>(), res);
         return res;
     }
 }
