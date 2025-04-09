@@ -1,7 +1,7 @@
 class Solution {
     public int minOperations(int[] nums, int k) {
         HashMap<Integer,Integer> map=new HashMap<Integer,Integer>();
-        int ans=0,flag=0;
+        int ans=0;
         for(int i=0;i<nums.length;i++){
             if(!map.containsValue(nums[i])){
                 map.put(i,nums[i]);
