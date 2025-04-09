@@ -1,17 +1,23 @@
 class Solution {
-    public List<List<Integer>> subsetsWithDup(int[] nums) {
-        Arrays.sort(nums);
-        Set<List<Integer>> finalans=new HashSet<>();
-        int len=nums.length;
-        for(int i=0;i<(1<<len);i++){
-            ArrayList<Integer> check=new ArrayList<Integer>();
-            for(int j=0;j<len;j++){
-                if(((1<<j)&i)!=0){
-                    check.add(nums[j]);
-                }
-            }
-            finalans.add(check);
+    void func(int index, int[] arr, List<Integer> current, Set<List<Integer>> res) {
+        if (index == arr.length) {
+            res.add(current);  // Must add a copy
+            return;
         }
-        return new ArrayList<>(finalans);
+        // Include the current element
+        List<Integer> include = new ArrayList<>(current);
+        include.add(arr[index]);
+        func(index + 1, arr, include, res);
+
+        // Exclude the current element
+        //List<Integer> exclude = new ArrayList<>(current);
+        func(index + 1, arr, current, res); // No need to clone again
+    }
+
+    public List<List<Integer>> subsetsWithDup(int[] nums)  {
+        Arrays.sort(nums);
+        Set<List<Integer>> res=new HashSet<>();
+        func(0, nums, new ArrayList<>(), res);
+        return new ArrayList<>(res);
     }
 }
