@@ -1,6 +1,6 @@
 class Solution {
     public long countFairPairs(int[] nums, int lower, int upper) {
-        int ans=0,lans=0,uans=0;
+        long ans=0,lans=0,uans=0;
         Arrays.sort(nums);
         int left=0,right=nums.length-1;
         while(left!=right){
@@ -15,7 +15,7 @@ class Solution {
         left=0;
         right=nums.length-1;
         while(left!=right){
-            if(nums[left]+nums[right]<=upper){
+            if(nums[left]+nums[right]<upper+1){
                 uans+=right-left;
                 left++;
             }
@@ -23,7 +23,7 @@ class Solution {
                 right--;
             }
         }
-        ans=uans-lans;
+        ans=(long)uans-lans;
         return ans;
     }
 }
