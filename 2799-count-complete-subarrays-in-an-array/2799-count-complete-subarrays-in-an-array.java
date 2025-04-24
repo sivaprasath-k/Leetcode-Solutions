@@ -4,29 +4,17 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             a.add(nums[i]);
         }
-        //System.out.println(a.size());
-        int[] b=new int[20001];
-        int last=nums.length-a.size();
-        int count=0,ans=0;
-        int left=0,right=0;
-        while(left<=last && right<nums.length){
-            if(count<a.size()){
-                if(b[nums[right]]==0){
-                    count++;
-                }
-                b[nums[right]]++;
-                right++;
-            }
-            if(count>=a.size()){
-                System.out.println(a.size());
-                ans=ans+(nums.length-right)+1;
-                System.out.println(ans + "ch");
-                b[nums[left]]--;
-                if(b[nums[left]]==0){
-                    count--;
-                }
+        HashMap<Integer,Integer> map=new HashMap<>();
+        int left=0,right=0,ans=0;
+        while(right<nums.length){
+            map.put(nums[right],map.getOrDefault(nums[right],0)+1);
+            while(map.size()==a.size()){
+                ans+=nums.length-right;
+                map.put(nums[left],map.get(nums[left])-1);
+                if(map.get(nums[left])==0) map.remove(nums[left]);
                 left++;
             }
+            right++;
         }
         return ans;
     }
