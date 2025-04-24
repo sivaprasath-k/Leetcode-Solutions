@@ -5,6 +5,8 @@ class Solution {
         HashSet<Integer> map2=new HashSet<Integer>();
         for(int i=0;i<nums1.length;i++){
             map1.add(nums1[i]);
+        }
+        for(int i=0;i<nums2.length;i++){
             map2.add(nums2[i]);
         }
         ArrayList<Integer> preans=new ArrayList<Integer>();
