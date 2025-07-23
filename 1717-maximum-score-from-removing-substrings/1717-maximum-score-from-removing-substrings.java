@@ -32,7 +32,8 @@ class Solution {
             }
             i++;
         }
-
+        if(st.isEmpty()) return score;
+        
         StringBuilder again=new StringBuilder();
         for(char ch:st) again.append(ch);
 
