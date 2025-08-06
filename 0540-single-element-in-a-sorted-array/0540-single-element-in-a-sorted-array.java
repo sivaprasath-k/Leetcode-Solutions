@@ -16,7 +16,7 @@ class Solution {
                 if (nums[mid] == nums[mid - 1]) {
                     left = mid + 1; //  same here
                 } else {
-                    right = mid - 1;
+                    right = mid;
                 }
             }
         }
