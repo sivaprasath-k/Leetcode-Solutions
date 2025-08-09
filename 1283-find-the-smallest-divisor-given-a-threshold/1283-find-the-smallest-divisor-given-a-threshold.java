@@ -6,7 +6,7 @@ class Solution {
         }
         int left=1,right=max,mid=0;
         int sum=0,fians=0;
-        while(left<=right){
+        while(left<right){
             mid=left+((right-left)/2);
             sum=0;
             for(int i:nums){
