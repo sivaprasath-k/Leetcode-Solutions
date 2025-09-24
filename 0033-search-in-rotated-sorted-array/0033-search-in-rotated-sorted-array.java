@@ -19,7 +19,7 @@ class Solution {
                 break;
             }
          }
-         if(flag==0) last=nums.length;
+         if(flag==0) last=nums.length-1;
 
          int left=0,right=last,mid=left+((right-left)/2);
          while(left<=right){
@@ -52,12 +52,3 @@ class Solution {
          return ans;
     }
 }
-
-
-// Arrays.sort(nums);
-//         int ans=-1;
-//         int left=0,right=nums.length-1;mid=left+((right-left)/2);
-//         while(left<=right){
-//             mid=left+((right-left)/2);
-//             if(nums[mid]==target) return
-//         }
