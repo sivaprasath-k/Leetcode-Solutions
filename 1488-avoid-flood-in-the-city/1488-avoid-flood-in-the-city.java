@@ -24,7 +24,7 @@ class Solution {
                     if(set==-1) return new int[0];
                     else{
                         ans[set]=rains[i];
-                        l.remove(mi);
+                        l.remove(Integer.valueOf(set));
                         map.put(rains[i],i);
                     }
                 }
