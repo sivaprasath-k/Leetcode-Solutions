@@ -11,12 +11,12 @@ class Solution {
             while(size>k){
                 hm.put(s.charAt(l),hm.get(s.charAt(l))-1);
                 l++;
-                int idx=l;
-                max=Integer.MIN_VALUE;
-                while(idx<=r){
-                    max=Math.max(max,hm.get(s.charAt(idx)));
-                    idx++;
-                }
+                // int idx=l;
+                // max=Integer.MIN_VALUE;
+                // while(idx<=r){
+                //     max=Math.max(max,hm.get(s.charAt(idx)));
+                //     idx++;
+                // }
                 size=(r-l+1)-max;
             }
             ans=Math.max(ans,(r-l+1));
