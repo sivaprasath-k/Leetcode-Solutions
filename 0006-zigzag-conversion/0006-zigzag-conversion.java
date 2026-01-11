@@ -1,7 +1,7 @@
 class Solution {
     public String convert(String s, int n) {
         int len=s.length(),row=0,col=0,in=1;
-        if(len<=n) return s;
+        if(len<=n || n<2) return s;
         char[][] ans=new char[len][len];
         for(int i=0;i<len;i++){
             if(in==1){
