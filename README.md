@@ -11,6 +11,7 @@ Codings
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0907-sum-of-subarray-minimums](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -24,8 +25,17 @@ Codings
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0647-palindromic-substrings](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0647-palindromic-substrings/) | Medium |
+| [0907-sum-of-subarray-minimums](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1009-complement-of-base-10-integer](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1009-complement-of-base-10-integer/) | Easy |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0907-sum-of-subarray-minimums](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0907-sum-of-subarray-minimums](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 <!---LeetCode Topics End-->
