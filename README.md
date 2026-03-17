@@ -11,6 +11,7 @@ Codings
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0735-asteroid-collision](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0735-asteroid-collision/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
 ## Greedy
@@ -33,9 +34,14 @@ Codings
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0735-asteroid-collision](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0735-asteroid-collision/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0907-sum-of-subarray-minimums](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0735-asteroid-collision](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0735-asteroid-collision/) | Medium |
 <!---LeetCode Topics End-->
