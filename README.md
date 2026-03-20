@@ -47,4 +47,8 @@ Codings
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0735-asteroid-collision](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0735-asteroid-collision/) | Medium |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1661-average-time-of-process-per-machine](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1661-average-time-of-process-per-machine/) | Easy |
 <!---LeetCode Topics End-->
