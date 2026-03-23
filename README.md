@@ -50,5 +50,6 @@ Codings
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1280-students-and-examinations](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1280-students-and-examinations/) | Easy |
 | [1661-average-time-of-process-per-machine](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1661-average-time-of-process-per-machine/) | Easy |
 <!---LeetCode Topics End-->
