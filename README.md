@@ -52,6 +52,7 @@ Codings
 | ------- | ------- |
 | [1251-average-selling-price](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1251-average-selling-price/) | Easy |
 | [1280-students-and-examinations](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1280-students-and-examinations/) | Easy |
+| [1633-percentage-of-users-attended-a-contest](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1633-percentage-of-users-attended-a-contest/) | Easy |
 | [1661-average-time-of-process-per-machine](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1661-average-time-of-process-per-machine/) | Easy |
 | [1934-confirmation-rate](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1934-confirmation-rate/) | Medium |
 <!---LeetCode Topics End-->
