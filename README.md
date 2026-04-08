@@ -52,6 +52,7 @@ Codings
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1211-queries-quality-and-percentage](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1211-queries-quality-and-percentage/) | Easy |
 | [1251-average-selling-price](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1251-average-selling-price/) | Easy |
 | [1280-students-and-examinations](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1280-students-and-examinations/) | Easy |
 | [1633-percentage-of-users-attended-a-contest](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1633-percentage-of-users-attended-a-contest/) | Easy |
