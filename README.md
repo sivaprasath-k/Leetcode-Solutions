@@ -9,6 +9,7 @@ Codings
 | [0647-palindromic-substrings](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/siva18052006/Leetcode-Solutions/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
