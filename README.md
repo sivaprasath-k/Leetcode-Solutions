@@ -55,6 +55,7 @@ Codings
 | ------- | ------- |
 | [0550-game-play-analysis-iv](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0550-game-play-analysis-iv/) | Medium |
 | [0596-classes-with-at-least-5-students](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0596-classes-with-at-least-5-students/) | Easy |
+| [1045-customers-who-bought-all-products](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1045-customers-who-bought-all-products/) | Medium |
 | [1070-product-sales-analysis-iii](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1070-product-sales-analysis-iii/) | Medium |
 | [1141-user-activity-for-the-past-30-days-i](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1141-user-activity-for-the-past-30-days-i/) | Easy |
 | [1174-immediate-food-delivery-ii](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1174-immediate-food-delivery-ii/) | Medium |
