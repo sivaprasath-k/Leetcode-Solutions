@@ -53,6 +53,7 @@ Codings
 ## Database
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0180-consecutive-numbers](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0180-consecutive-numbers/) | Medium |
 | [0550-game-play-analysis-iv](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0550-game-play-analysis-iv/) | Medium |
 | [0596-classes-with-at-least-5-students](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0596-classes-with-at-least-5-students/) | Easy |
 | [0610-triangle-judgement](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0610-triangle-judgement/) | Easy |
