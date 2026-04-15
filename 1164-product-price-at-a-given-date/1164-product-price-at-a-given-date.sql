@@ -4,7 +4,6 @@ left join(
     select product_id,new_price,change_date
     from Products
     where change_date<="2019-08-16"
-    -- order by product_id,change_date desc
 ) as p2
 join(
     select product_id,max(change_date) as dat
