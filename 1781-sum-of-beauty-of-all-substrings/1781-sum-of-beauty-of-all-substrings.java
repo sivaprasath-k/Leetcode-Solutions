@@ -8,24 +8,19 @@ class Solution {
         int[] arr=new int[26];
 
         for(i=0;i<len;i++){
-            for(j=i+1;j<=len;j++){
+            arr=new int[26];
+            for(j=i;j<len;j++){
+                
+                int idx=(int)s.charAt(j)-'a';
+                arr[idx]++;
+                int min=Integer.MAX_VALUE,max=Integer.MIN_VALUE;
 
-                ck=s.substring(i,j);
-                int min=Integer.MAX_VALUE,max=Integer.MIN_VALUE,val1=0,val2=0;
-                arr=new int[26];
-
-                for(k=0;k<ck.length();k++){
-                    int idx=ck.charAt(k)-'a';
-                    arr[idx]++;
-                }
-
-                for(int v=0;v<26;v++){
-                    if(arr[v]!=0){
-                        min=Math.min(min,arr[v]);
-                        max=Math.max(max,arr[v]);
+                for(int v:arr){
+                    if(v!=0){
+                        min=Math.min(min,v);
+                        max=Math.max(max,v);
                     }
                 }
-
                 res+=max-min;
             }
         }
