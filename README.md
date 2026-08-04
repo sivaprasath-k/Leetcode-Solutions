@@ -9,6 +9,7 @@ Codings
 | [0647-palindromic-substrings](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0647-palindromic-substrings/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0921-minimum-add-to-make-parentheses-valid/) | Medium |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/siva18052006/Leetcode-Solutions/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
@@ -75,4 +76,12 @@ Codings
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1731-the-number-of-employees-which-report-to-each-employee/) | Easy |
 | [1789-primary-department-for-each-employee](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1789-primary-department-for-each-employee/) | Easy |
 | [1934-confirmation-rate](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1934-confirmation-rate/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1781-sum-of-beauty-of-all-substrings/) | Medium |
 <!---LeetCode Topics End-->
