@@ -12,4 +12,4 @@ ifnull(sum(
     END
 ),0) as approved_total_amount
 from Transactions
-group by country,month;
+group by month,country;
