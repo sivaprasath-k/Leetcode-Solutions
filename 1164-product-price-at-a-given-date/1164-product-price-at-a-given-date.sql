@@ -1,4 +1,4 @@
-select p1.product_id,ifnull(p2.new_price,10) as price 
+select p1.product_id,ifnull(min(p2.new_price),10) as price 
 from Products as p1
 left join(
     select product_id,new_price,change_date
