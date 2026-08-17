@@ -66,6 +66,7 @@ Codings
 | [0584-find-customer-referee](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0584-find-customer-referee/) | Easy |
 | [0596-classes-with-at-least-5-students](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0596-classes-with-at-least-5-students/) | Easy |
 | [0610-triangle-judgement](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0610-triangle-judgement/) | Easy |
+| [0626-exchange-seats](https://github.com/siva18052006/Leetcode-Solutions/tree/main/0626-exchange-seats/) | Medium |
 | [1045-customers-who-bought-all-products](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1045-customers-who-bought-all-products/) | Medium |
 | [1070-product-sales-analysis-iii](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1070-product-sales-analysis-iii/) | Medium |
 | [1075-project-employees-i](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1075-project-employees-i/) | Easy |
