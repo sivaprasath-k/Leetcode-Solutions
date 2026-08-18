@@ -77,6 +77,7 @@ Codings
 | [1211-queries-quality-and-percentage](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1211-queries-quality-and-percentage/) | Easy |
 | [1251-average-selling-price](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1251-average-selling-price/) | Easy |
 | [1280-students-and-examinations](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1280-students-and-examinations/) | Easy |
+| [1321-restaurant-growth](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1321-restaurant-growth/) | Medium |
 | [1633-percentage-of-users-attended-a-contest](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1633-percentage-of-users-attended-a-contest/) | Easy |
 | [1661-average-time-of-process-per-machine](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1661-average-time-of-process-per-machine/) | Easy |
 | [1729-find-followers-count](https://github.com/siva18052006/Leetcode-Solutions/tree/main/1729-find-followers-count/) | Easy |
